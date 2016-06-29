@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "aws-sdk", "~> 2.0"
+  spec.add_dependency "aws-sdk"
   spec.add_dependency "typhoeus", "~> 0.8"
   spec.add_dependency "erubis", "~> 2.7"
 
